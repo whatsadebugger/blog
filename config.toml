@@ -1,3 +1,32 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Ahmad's Blog"
+theme = "hugo-theme-bootstrap4-blog"
+
+paginate = 5
+
+
+# [permalinks]
+#   post = "/:year/:month/:title/"
+#   page = "/:slug/"
+
+# [[menu.sidebar]]
+#   name = "Link 1"
+#   url = "https://example.com"
+
+# [[menu.sidebar]]
+#   name = "Link 2"
+#   url = "https://example.org"
+
+[params]
+  # Site author
+  author = "Ahmad Tabbakha"
+
+  # Description/subtitle for homepage (can be Markdown)
+  description = "Here you'll find hopefully a few good posts which will help you learn from my mistakes and successes."
+
+  # Format dates with Go's time formatting
+  date_format = "Mon Jan 02, 2006"
+
+[params.social]
+  twitter="AhmadTabbakha"
