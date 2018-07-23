@@ -1,4 +1,8 @@
-# Hello there this is my blog
+---
+author: "Ahmad Tabbakha"
+date: 2018-07-23
+title: my first blog post
+---
 
 First blog entry trying to figure out how to get all of this setup. I needed to install hugo which was really easy
 using ```sudo apt install hugo```. I then followed the quickstart guide on hugos site [quick start](https://gohugo.io/getting-started/quick-start/).
